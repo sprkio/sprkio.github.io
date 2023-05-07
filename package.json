@@ -1,0 +1,17 @@
+{
+  "name": "sprkio.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sprkio/sprkio.github.io.git",
+  "author": "haokun li <ker@pm.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vuepress": "^1.9.9"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "gh-pages -d docs/.vuepress/dist"
+  }
+}
